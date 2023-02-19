@@ -58,5 +58,5 @@ sudo chmod +x /usr/local/bin/docker-compose
 # Afficher la version de Docker Compose installée
 echo "Docker Compose version $LATEST_RELEASE a été installé avec succès."
 
-# Suppression du Script_Install.sh
-sudo rm /Script_Install.sh
+# Suppression du dossier d'installation
+sudo rm -r script-install-docker-dockercompose-ubuntu
