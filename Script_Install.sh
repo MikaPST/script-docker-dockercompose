@@ -39,7 +39,7 @@ echo \
 apt-get update -y
 chmod a+r "$DOCKER_KEYRING_DIR/docker.gpg"
 apt-get update -y
-apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 # Vérification de l'installation de Docker
 if ! systemctl is-active --quiet docker; then
