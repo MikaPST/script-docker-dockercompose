@@ -17,7 +17,6 @@ sudo git clone https://github.com/MikaPST/script-install-docker-dockercompose-ub
 ## ℹ️ Prerequisites:
 1. Any hardware or vps/vds server running Linux. You should have administrative rights on this machine.
 2. The machine must have internet access
-3. Port 80/443 open
 
 
 # 🔎 Detailed Description of the Script 
