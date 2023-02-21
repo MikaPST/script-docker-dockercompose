@@ -3,11 +3,11 @@
 # Vérification que les dépendances nécessaires sont installées
 if ! command -v lsb_release > /dev/null 2>&1; then
     echo "Le paquet lsb-release n'est pas installé. Installation en cours..."
-    apt-get update && apt-get install -y lsb-release
+    apt-get update && apt-get install lsb-release -y
 fi
 
 # Mise à jour de la distribution
-apt-get update && apt-get -y dist-upgrade
+apt-get update && apt-get dist-upgrade -y
 apt-get -y autoremove --purge && apt-get autoclean
 
 # Désinstallation des vieilles versions de Docker
