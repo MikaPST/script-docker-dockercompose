@@ -1,14 +1,14 @@
-<p align=center><img src="https://github.com/MikaPST/script-install-docker-dockercompose-ubuntu/blob/main/logo-script-DockerAndDockerCompose.png?raw=true" height="350"></p><br>
+<p align=center><img src="https://github.com/MikaPST/script-install-docker-dockercompose/blob/main/logo-script-DockerAndDockerCompose.png?raw=true" height="350"></p><br>
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-# 📜Script Install Docker and Docker-Compose (Ubuntu)
-This script is a Bash script that aims to install **Docker** and **Docker Compose** in their latest versions on an Ubuntu system.
+# 📜Script Install Docker and Docker-Compose (Debian/Debian-based)
+This script is a Bash script that aims to install **Docker** and **Docker Compose** in their latest versions on an Debian/Debian-based system.
 
 The goal is to provide a single command that can perform a clean and quick installation of these two tools. After the installation, the git folder is deleted.
 
-The script is compatible with Ubuntu versions **18.04/20.04/22.04**.
+The script is compatible with Debian and other versions based on Debian.
 
 ```bash
 sudo git clone https://github.com/MikaPST/script-install-docker-dockercompose.git && cd script-install-docker-dockercompose/ && sudo chmod +x install_docker.sh && sudo ./install_docker.sh && cd .. && sudo rm -r script-install-docker-dockercompose
