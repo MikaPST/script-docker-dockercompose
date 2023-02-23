@@ -56,4 +56,4 @@ sudo curl -L "https://github.com/docker/compose/releases/download/$LATEST_RELEAS
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Afficher la version de Docker Compose installée
-echo "Docker Compose version $LATEST_RELEASE a été installé avec succès."
+echo "\e[32mDocker Compose version $LATEST_RELEASE a été installé avec succès.\e[0m"
