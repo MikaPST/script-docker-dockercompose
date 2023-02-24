@@ -51,13 +51,6 @@ Shecks if Docker has been successfully installed using the docker --version | gr
 ## 10 - The last part of the script
 Downloads and installs the latest version of Docker Compose using the curl command. Then, the script modifies the permissions of the docker-compose file to make it executable. Finally, the script displays a message to the user indicating that Docker Compose has been successfully installed.
 
-
-## ⚠️ Note
-**Once the installation is complete. The installation folder is deleted.**
-
-
-
-
-# Other Resources
+# 📖 Other Resources
 [Doc Install Docker](https://docs.docker.com/engine/install/ubuntu/)<br>
 [Doc Install Docker-Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)<br>
