@@ -11,7 +11,13 @@ The goal is to provide a single command that can perform a clean and quick insta
 The script is compatible with Debian and other versions based on Debian.
 
 ```bash
-git clone https://github.com/MikaPST/script-install-docker-dockercompose.git && cd script-install-docker-dockercompose/ && sudo chmod +x install_docker.sh && sudo ./install_docker.sh && cd .. && sudo rm -r script-install-docker-dockercompose
+git clone https://github.com/MikaPST/script-install-docker-dockercompose.git \
+&& cd script-install-docker-dockercompose/ \
+&& sudo chmod +x install_docker.sh \
+&& sudo ./install_docker.sh \
+&& cd .. \
+&& sudo rm -rf script-install-docker-dockercompose
+
 ```
 
 ## ℹ️ Prerequisites:
