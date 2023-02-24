@@ -11,7 +11,7 @@ The goal is to provide a single command that can perform a clean and quick insta
 The script is compatible with Debian and other versions based on Debian.
 
 ```bash
-curl -sL https://raw.githubusercontent.com/MikaPST/script-install-docker-dockercompose/main/install_docker.sh | sudo bash
+git clone https://github.com/MikaPST/script-install-docker-dockercompose.git && cd script-install-docker-dockercompose/ && sudo chmod +x install_docker.sh && sudo ./install_docker.sh && cd .. && sudo rm -r script-install-docker-dockercompose
 ```
 
 ## ℹ️ Prerequisites:
@@ -50,6 +50,9 @@ Shecks if Docker has been successfully installed using the docker --version | gr
 
 ## 10 - The last part of the script
 Downloads and installs the latest version of Docker Compose using the curl command. Then, the script modifies the permissions of the docker-compose file to make it executable. Finally, the script displays a message to the user indicating that Docker Compose has been successfully installed.
+
+## ⚠️ Note
+**Once the installation is complete. The installation folder is deleted.**
 
 # 📖 Other Resources
 [Doc Install Docker](https://docs.docker.com/engine/install/ubuntu/)<br>
