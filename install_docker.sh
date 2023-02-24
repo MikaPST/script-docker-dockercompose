@@ -51,9 +51,11 @@ if ! docker --version | grep -q "Docker version"; then
 fi
 
 # Télécharger et installer la dernière version de Docker Compose
+VERSION_DOCKER=$(sudo docker --version)
 LATEST_RELEASE=$(curl --silent "https://api.github.com/repos/docker/compose/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 sudo curl -L "https://github.com/docker/compose/releases/download/$LATEST_RELEASE/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# Afficher la version de Docker Compose installée
-echo -e "\e[32mDocker Compose version $LATEST_RELEASE a été installé avec succès.\e[0m"
+# Afficher la version de Docker et Docker-Compose installée
+echo -e "\e[32mDocker version $VERSION_DOCKER a été installé avec succès.\e[0m"
+echo -e "\e[32mDocker-Compose version $LATEST_RELEASE a été installé avec succès.\e[0m"
