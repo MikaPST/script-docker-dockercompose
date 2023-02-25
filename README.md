@@ -18,7 +18,6 @@ git clone https://github.com/MikaPST/script-docker-dockercompose.git \
 && sudo ./start.sh \
 && cd .. \
 && sudo rm -rf script-docker-dockercompose
-
 ```
 
 ## ℹ️ Prerequisites:
