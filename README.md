@@ -1,5 +1,5 @@
 <p align=center>
-<img src="https://github.com/MikaPST/script-install-docker-dockercompose/blob/main/logo-script-DockerAndDockerCompose.png?raw=true" height="350">
+<img src="https://github.com/MikaPST/script-docker-dockercompose/blob/main/logo-script-DockerAndDockerCompose.png?raw=true" height="350">
 </p><br>
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -12,12 +12,12 @@ The goal is to provide a single command that can perform a clean and quick insta
 The script is compatible with Debian and other versions based on Debian.
 
 ```bash
-git clone https://github.com/MikaPST/script-install-docker-dockercompose.git \
-&& cd script-install-docker-dockercompose/ \
-&& sudo chmod +x install_docker.sh \
-&& sudo ./install_docker.sh \
+git clone https://github.com/MikaPST/script-docker-dockercompose.git \
+&& cd script-docker-dockercompose/ \
+&& sudo chmod +x start.sh \
+&& sudo ./start.sh \
 && cd .. \
-&& sudo rm -rf script-install-docker-dockercompose
+&& sudo rm -rf script-docker-dockercompose
 
 ```
 
