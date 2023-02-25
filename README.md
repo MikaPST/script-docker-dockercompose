@@ -2,9 +2,7 @@
 <img src="https://github.com/MikaPST/script-install-docker-dockercompose/blob/main/logo-script-DockerAndDockerCompose.png?raw=true" height="350">
 </p><br>
 
-<p align="center">
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-</p>
 
 # 📜Script Install Docker and Docker-Compose (Debian/Debian-based)
 This script is a Bash script that aims to install **Docker** and **Docker Compose** in their latest versions on an Debian/Debian-based system.
