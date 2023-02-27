@@ -21,9 +21,9 @@ git clone https://github.com/MikaPST/script-docker-dockercompose.git \
 ```
 
 ## ℹ️ Prerequisites:
-1. Any hardware or vps/vds server running Linux. You should have administrative rights on this machine.
-2. The machine must have internet access
+> **1.** *Any hardware or vps/vds server running Linux. You should have administrative rights on this machine.*
 
+> **2.** *The machine must have internet access.*
 
 # 🔎 Detailed Description of the Script 
 
